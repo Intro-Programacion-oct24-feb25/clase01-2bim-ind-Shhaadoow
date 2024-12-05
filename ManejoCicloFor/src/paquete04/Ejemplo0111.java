@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete01;
+package paquete04;
+
+import paquete01.*;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo0111 {
 
     /**
      * @param args the command line arguments
