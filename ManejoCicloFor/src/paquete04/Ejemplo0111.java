@@ -5,7 +5,7 @@
  */
 package paquete04;
 
-import paquete01.*;
+
 
 /**
  *
@@ -17,20 +17,15 @@ public class Ejemplo0111 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String cadenaFinal = "";
-        for (int i = 1; i <= 10; i++) {
-            
-            cadenaFinal = String.format("%s%d\n", 
-                    cadenaFinal,i);
-        }
-        
-        for (int i = 1; i < 11; i++) {
-            cadenaFinal = String.format("%s%d\n", 
-                    cadenaFinal,i);
-        }
-        
-        System.out.printf("%s", cadenaFinal);
+        for (int i = 30; i >= 10; i--) {
 
+            int num1 = i;
+            int num2 = num1 * 2;
+            int num3 = num1 * 3;
+            int num4 = num1 * 4;
+
+            System.out.println(num1 + "-" + num2 + "-" + num3 + "-" + num4);
+        }
     }
 
 }
